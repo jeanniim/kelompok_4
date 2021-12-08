@@ -1,9 +1,17 @@
 /* Basic Style */
 body {
-    background: #fff;
-    color: blue;
+    background: #222;
+    color: #fff;
     font-family: Lato, sans-serif;
   }
+
+  @media (prefers-color-scheme: dark){
+    body {
+      color: #eee;
+      background: #121212;
+    }
+  }
+
   .container {
     display: block;
     width: 400px;
@@ -34,12 +42,12 @@ body {
     cursor: pointer;
   }
   button:hover {
-    color: #333;
+    color: green;
   }
   /* Heading */
   h3,
   label[for='new-task'] {
-    color: #333;
+    color: #eee;
     font-weight: 700;
     font-size: 15px;
     border-bottom: 2px solid #333;
