@@ -103,9 +103,10 @@ body {
   li > label {
     font-size: 19px;
     line-height: 40px;
-    width: 237px;
+    width: 240px;
     padding: 0 0 0 11px;
   }
+  
   li >  input[type="text"] {
     width: 226px;
   }
