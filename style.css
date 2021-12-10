@@ -57,7 +57,7 @@ body {
   }
   input[type="text"] {
     margin: 0;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 18px;
     height: 18px;
     padding: 10px;
@@ -96,7 +96,7 @@ body {
     top: 15px;
   }
   li > label {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 40px;
     width: 237px;
     padding: 0 0 0 11px;
