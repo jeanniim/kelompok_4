@@ -136,8 +136,6 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 	var checkBox=taskListItem.querySelector("input[type=checkbox]");
 	var editButton=taskListItem.querySelector("button.edit");
 	var deleteButton=taskListItem.querySelector("button.delete");
-
-
 			//Bind editTask to edit button.
 			editButton.onclick=editTask;
 			//Bind deleteTask to delete button.
@@ -153,9 +151,6 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 		//bind events to list items chldren(tasksCompleted)
 		bindTaskEvents(incompleteTaskHolder.children[i],taskCompleted);
 	}
-
-
-
 
 //cycle over completedTasksHolder ul list items
 	for (var i=0; i<completedTasksHolder.children.length;i++){
