@@ -44,6 +44,11 @@ body {
   button:hover {
     color: green;
   }
+
+  /* .edit:hover {
+    color: #F0BB62;
+  } */
+  
   /* Heading */
   h3,
   label[for='new-task'] {
